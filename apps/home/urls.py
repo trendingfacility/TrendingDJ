@@ -15,6 +15,7 @@ urlpatterns = [
     path('icons', views.getIcons),
     path('map', views.getMaps),
     path('tables', views.getTables),
+    path('logout', views.getLogout),
 
 
     # Matches any html file

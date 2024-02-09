@@ -60,3 +60,6 @@ def getMaps(request):
 def getTables(request):
     return render(request, 'home/tables.html')
 
+def getLogout(request):
+    return render(request, 'home/login.html')
+
